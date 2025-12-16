@@ -43,7 +43,7 @@ const Card3D = ({ card, onClose }) => {
 
   return (
     <div 
-      className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-start justify-center p-4 overflow-y-auto pt-12 pb-20"
       onClick={onClose}
     >
       <div 

@@ -308,7 +308,7 @@ const MyListings = () => {
 
       {/* Modal de Edição */}
       {editModal && (
-        <div className="fixed inset-0 bg-black/80 z-[100] flex items-center justify-center p-4">
+        <div className="fixed inset-0 bg-black/80 z-[100] flex items-start justify-center p-4 overflow-y-auto pt-12 pb-20">
           <div className="bg-gray-900 rounded-2xl p-6 w-full max-w-md border border-gray-700">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-lg font-bold">Editar Anúncio</h2>
